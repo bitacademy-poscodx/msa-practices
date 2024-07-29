@@ -2,7 +2,7 @@ spring:
    application:
       name: service-config-server
    profiles:
-      active: native
+      active: git
 
 ---
 # configuration: common       
@@ -27,7 +27,7 @@ spring:
          server:
             encrypt.enabled: true
             git:
-               uri: https://github.com/poscodx-bitacademy/msa-practices-config-repo
+               uri: https://github.com/bitacademy-poscodx/msa-practices-config-repo
                searchPaths: service-emaillist,
                             service-storage,
                             service-gallery,
