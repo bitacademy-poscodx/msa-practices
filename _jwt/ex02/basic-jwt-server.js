@@ -22,7 +22,7 @@ app.post("/auth", (req, res) => {
 
     const generateAccessTokenOptions = {
         algorithm: 'HS256',
-        expiresIn: '1m'
+        expiresIn: '10m'
     };
 
     const generateRefreshTokenOptions = {
